@@ -186,6 +186,7 @@ export default function MapScreen() {
     }
   };
 
+  
   const getCurrentBounds = () => {
     const jsCode = `
       if (typeof window.getCurrentRouteView === 'function') {
